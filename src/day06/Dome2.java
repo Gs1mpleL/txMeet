@@ -42,6 +42,7 @@ public class Dome2 {
         String text = jTextArea.getText();
         String[] users = text.split("/n");
         for(String user:users){
-            System.out.println(user);        }
+            System.out.println(user);
+        }
     }
 }
